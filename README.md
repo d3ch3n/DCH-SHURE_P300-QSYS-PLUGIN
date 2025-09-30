@@ -1,81 +1,81 @@
-Shure P300 – Q-SYS Plugin
+📘 Shure P300 – Q-SYS Plugin
 
-Este plugin foi desenvolvido para integrar o Shure IntelliMix P300 Audio Conferencing Processor ao Q-SYS Designer (testado na versão 10.0.0).
-Ele permite controle e monitoramento direto dos parâmetros de áudio do P300 dentro do ambiente Q-SYS.
+This plugin was developed to integrate the Shure IntelliMix P300 Audio Conferencing Processor into Q-SYS Designer (tested on version 10.0.0).
+It enables direct control and monitoring of P300 audio parameters within the Q-SYS environment.
 
-📂 Instalação
+📂 Installation
 
-Baixe o arquivo do plugin (Shure_P300.qplug) ou copie a pasta do projeto.
+Download the plugin file (Shure_P300.qplug) or copy the project folder.
 
-Abra o Q-SYS Designer (mínimo: versão 10.0.0).
+Open Q-SYS Designer (minimum: version 10.0.0).
 
-No menu superior, vá em:
+In the top menu, go to:
 Tools → Show Plugin Manager.
 
-Clique em Install e selecione o arquivo do plugin Shure_P300.qplug.
+Click Install and select the plugin file Shure_P300.qplug.
 
-Reinicie o Q-SYS Designer para que o plugin apareça na lista.
+Restart Q-SYS Designer so the plugin appears in the list.
 
-⚙️ Uso
+⚙️ Usage
 
-Abra seu projeto no Q-SYS Designer.
+Open your project in Q-SYS Designer.
 
-Na paleta de componentes, localize o plugin em Plugins → Shure → P300.
+In the components palette, locate the plugin under Plugins → Shure → P300.
 
-Arraste o componente para a sua Schematic Page.
+Drag the component onto your Schematic Page.
 
-Configure os parâmetros de rede:
+Configure the network parameters:
 
-IP Address: endereço do P300 na rede Dante/control.
+IP Address: the P300 device address on the Dante/control network.
 
-Port: porta de comunicação (default: 2202).
+Port: communication port (default: 2202).
 
-Clique em Save e Run no Q-SYS Designer.
+Click Save and Run in Q-SYS Designer.
 
-O plugin se conectará automaticamente ao P300 e exibirá:
+The plugin will automatically connect to the P300 and display:
 
-Controle de ganho por canal (fader vertical estilo mixer)
+Channel gain control (vertical fader, mixer style)
 
-Mute por canal (toggle button)
+Per-channel mute (toggle button)
 
-Status dos presets e seleção remota
+Preset status and remote recall
 
-Informações do dispositivo (MAC Address, versão de firmware, etc.)
+Device information (MAC Address, firmware version, etc.)
 
-🛠️ Recursos do Plugin
+🛠️ Plugin Features
 
-Controle de Gain (-110 dB a +30 dB, resolução de 0,1 dB).
+Gain control (-110 dB to +30 dB, 0.1 dB resolution).
 
-Mute individual por canal.
+Individual mute per channel.
 
-Seleção e recall de Presets do P300.
+Preset selection and recall.
 
-Exibição de informações do dispositivo (nome do canal, MAC, etc.).
+Display of device information (channel name, MAC, etc.).
 
-Interface customizada para se aproximar de um mixer físico.
+Custom interface resembling a physical audio mixer.
 
-🔧 Requisitos
+🔧 Requirements
 
-Q-SYS Designer 10.0.0 ou superior.
+Q-SYS Designer 10.0.0 or higher.
 
-Shure P300 na mesma rede do Core Q-SYS.
+Shure P300 on the same network as the Q-SYS Core.
 
-Firmware atualizado do P300.
+Updated firmware on the P300.
 
-👨‍💻 Desenvolvedor
+👨‍💻 Developer
 
-Este plugin foi desenvolvido de forma independente por Bruno Dechen.
-Não é um produto oficial da Shure nem da QSC.
+This plugin was independently developed by Bruno Dechen.
+It is not an official product of Shure or QSC.
 
-📧 Para dúvidas, contato e reporte de bugs:
+📧 For questions, contact and bug reports:
 brunodechen@gmail.com
 
-📜 Licença
+📜 License
 
-Este plugin é disponibilizado como Free to Use.
+This plugin is provided as Free to Use.
 
-✅ Pode ser usado, estudado e modificado livremente.
+✅ It may be used, studied, and modified freely.
 
-❌ Não pode ser vendido ou comercializado, total ou parcialmente.
+❌ It may not be sold or commercialized, in whole or in part.
 
-Marca Shure® é de propriedade da Shure Incorporated.
+Shure® is a registered trademark of Shure Incorporated.
