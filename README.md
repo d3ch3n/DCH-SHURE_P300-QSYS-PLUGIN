@@ -1,32 +1,81 @@
-# BasePlugin
+Shure P300 – Q-SYS Plugin
 
-This is a template plugin that you can download with some pre-written Lua code to get you started.
+Este plugin foi desenvolvido para integrar o Shure IntelliMix P300 Audio Conferencing Processor ao Q-SYS Designer (testado na versão 10.0.0).
+Ele permite controle e monitoramento direto dos parâmetros de áudio do P300 dentro do ambiente Q-SYS.
 
-## PluginCompile
+📂 Instalação
 
-This is a submodule built for VS Code. Please note it is not intended to be used for any other source code editors.
+Baixe o arquivo do plugin (Shure_P300.qplug) ou copie a pasta do projeto.
 
-The submodule will take the individual source Lua files in your local repo, compile them into a singular qplug file, and auto increment the desired octet of the BuildVersion.
-For first time builds, it will auto-generate an UUID for you plugin as well.
+Abra o Q-SYS Designer (mínimo: versão 10.0.0).
 
-Make sure to map a keyboard shortcut by navigating to File>Preferences>Keyboard Shortcuts. Type in "Tasks" and assign the desired shortcut to the Tasks: Run Build Task command
+No menu superior, vá em:
+Tools → Show Plugin Manager.
 
-### Build Arguments
+Clique em Install e selecione o arquivo do plugin Shure_P300.qplug.
 
-< ver_maj > : increments the first octet of BuildVersion to denote a major version change
+Reinicie o Q-SYS Designer para que o plugin apareça na lista.
 
-< ver_min > : increments the second octet of BuildVersion to denote a minor version change
+⚙️ Uso
 
-< ver_fix > : increments the third octet of BuildVersion to denote a bugfix
+Abra seu projeto no Q-SYS Designer.
 
-< ver_dev > : increments the fourth octet of BuildVersion to denote a new development version
+Na paleta de componentes, localize o plugin em Plugins → Shure → P300.
 
-< CANCEL > : cancels the build process
-  
-Please note that the public version (PluginVersion) only displays first and second octet. The second octets are intended for developer use and version tracking.
+Arraste o componente para a sua Schematic Page.
 
-## Support
+Configure os parâmetros de rede:
 
-If you have any questions or concerns with this template, please contact qsyscontrolfeedback@qsc.com
+IP Address: endereço do P300 na rede Dante/control.
 
-Please note that QSC does not support plugins authored by third party developers or companies.
+Port: porta de comunicação (default: 2202).
+
+Clique em Save e Run no Q-SYS Designer.
+
+O plugin se conectará automaticamente ao P300 e exibirá:
+
+Controle de ganho por canal (fader vertical estilo mixer)
+
+Mute por canal (toggle button)
+
+Status dos presets e seleção remota
+
+Informações do dispositivo (MAC Address, versão de firmware, etc.)
+
+🛠️ Recursos do Plugin
+
+Controle de Gain (-110 dB a +30 dB, resolução de 0,1 dB).
+
+Mute individual por canal.
+
+Seleção e recall de Presets do P300.
+
+Exibição de informações do dispositivo (nome do canal, MAC, etc.).
+
+Interface customizada para se aproximar de um mixer físico.
+
+🔧 Requisitos
+
+Q-SYS Designer 10.0.0 ou superior.
+
+Shure P300 na mesma rede do Core Q-SYS.
+
+Firmware atualizado do P300.
+
+👨‍💻 Desenvolvedor
+
+Este plugin foi desenvolvido de forma independente por Bruno Dechen.
+Não é um produto oficial da Shure nem da QSC.
+
+📧 Para dúvidas, contato e reporte de bugs:
+brunodechen@gmail.com
+
+📜 Licença
+
+Este plugin é disponibilizado como Free to Use.
+
+✅ Pode ser usado, estudado e modificado livremente.
+
+❌ Não pode ser vendido ou comercializado, total ou parcialmente.
+
+Marca Shure® é de propriedade da Shure Incorporated.
