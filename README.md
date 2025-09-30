@@ -68,7 +68,7 @@ This plugin was independently developed by Bruno Dechen.
 It is not an official product of Shure or QSC.
 
 📧 For questions, contact and bug reports:
-brunodechen@gmail.com
+bruno.dechen@gmail.com
 
 📜 License
 
