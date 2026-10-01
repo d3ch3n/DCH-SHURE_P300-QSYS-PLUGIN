@@ -24,6 +24,8 @@ In the components palette, locate the plugin under Plugins → DCH → Shure →
 
 The installed plugin folder is `QSC/Q-Sys Designer/Plugins/DCH/Shure/P300/`. The source project remains in its existing repository folder.
 
+Build `0.1.0.563` adds the Dechen Technologies logo beside Shure on every page. The image is embedded in the plugin; the source asset is `Images/DechenLogoHeader.png`.
+
 Drag the component onto your Schematic Page.
 
 Configure the network parameters:

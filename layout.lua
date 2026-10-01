@@ -1,3 +1,7 @@
+  table.insert(graphics, {
+    Type = "Image", Image = '--[[ #encode "Images\\DechenLogoHeader.png" ]]',
+    Position = {736, 16}, Size = {144, 36}, ZOrder = 10,
+  })
   -- GroupBox visual para área de controles
 
 
