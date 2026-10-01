@@ -20,7 +20,9 @@ Restart Q-SYS Designer so the plugin appears in the list.
 
 Open your project in Q-SYS Designer.
 
-In the components palette, locate the plugin under Plugins → Shure → P300.
+In the components palette, locate the plugin under Plugins → DCH → Shure → P300.
+
+The installed plugin folder is `QSC/Q-Sys Designer/Plugins/DCH/Shure/P300/`. The source project remains in its existing repository folder.
 
 Drag the component onto your Schematic Page.
 
